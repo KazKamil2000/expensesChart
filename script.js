@@ -15,19 +15,20 @@ fetch("./data.json")
             data: values,
             backgroundColor: ["red"],
             borderRadius: 3,
-            pointStyle: "dash",
           },
         ],
       },
       options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: false,
+          },
+        },
         scales: {
           y: {
             beginAtZero: true,
           },
-        },
-        title: {
-          display: true,
-          text: "Custom Chart Title",
         },
       },
     });
