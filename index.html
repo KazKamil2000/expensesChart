@@ -10,17 +10,31 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <title>Frontend Mentor | Expenses chart component</title>
   </head>
   <body>
-    <div class="top-container">
-      <div class="top-text">My balance</div>
-      <div class="bottom-text">$921.48</div>
-    </div>
-    <div class="bottom-container">
-      <div class="top-text"><h1 class="Spending">Spending - Last 7 days</h1></div>
-      mon tue wed thu fri sat sun Total this month $478.33 +2.4% from last month
+    <div class="app">
+      <div class="top-container">
+        <div class="top-text"><h1 class="info">My balance</h1></div>
+        <div class="bottom-text"><h2 class="balance">$921.48</h2></div>
+      </div>
+      <div class="main-container">
+        <div class="top-text">
+          <h1 class="Spending">Spending - Last 7 days</h1>
+        </div>
+        <div class="chart">
+          <div class="chart-data">
+            <canvas id="myChart"></canvas>
+          </div>
+          <hr />
+          <div class="info">
+            <p class="total">Total this month $478.33</p>
+            <p class="percent">+2.4% from last month</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="attribution">
@@ -29,5 +43,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
