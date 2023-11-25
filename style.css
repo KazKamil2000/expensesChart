@@ -1,10 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .app {
     height: 100vh;
+    min-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,11 +29,34 @@
 }
 
 .main-container {
-    background-color: bisque;
+    background-color: rgb(178, 171, 158);
     border-radius: 20px;
     padding: 20px;
-
 }
+
+.info {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.total-text {
+    color: rgb(75,75,75);
+    padding-bottom: 0.2rem;
+}
+
+.percent {
+    color: rgb(75,75,75);
+    font-weight: 700; 
+    text-align: end;
+    padding-top: 1rem;
+}
+
 
 /* ATTRIBUTIONS */
 .attribution { font-size: 11px; text-align: center; }

@@ -15,6 +15,7 @@ fetch("./data.json")
             data: values,
             backgroundColor: ["red"],
             borderRadius: 3,
+            hoverBackgroundColor: "blue",
           },
         ],
       },
@@ -23,6 +24,10 @@ fetch("./data.json")
         plugins: {
           legend: {
             display: false,
+          },
+          tooltip: {
+            yAlign: "bottom",
+            displayColors: false,
           },
         },
         scales: {

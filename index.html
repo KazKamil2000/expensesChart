@@ -16,22 +16,30 @@
   </head>
   <body>
     <div class="app">
-      <div class="top-container">
-        <div class="top-text"><h1 class="info">My balance</h1></div>
-        <div class="bottom-text"><h2 class="balance">$921.48</h2></div>
-      </div>
-      <div class="main-container">
-        <div class="top-text">
-          <h1 class="Spending">Spending - Last 7 days</h1>
+      <div class="wrapper">
+        <div class="top-container">
+          <div class="top-text"><h1 class="info">My balance</h1></div>
+          <div class="bottom-text"><h2 class="balance">$921.48</h2></div>
         </div>
-        <div class="chart">
-          <div class="chart-data">
-            <canvas id="myChart"></canvas>
+        <div class="main-container">
+          <div class="top-text">
+            <h1 class="Spending">Spending - Last 7 days</h1>
           </div>
-          <hr />
-          <div class="info">
-            <p class="total">Total this month $478.33</p>
-            <p class="percent">+2.4% from last month</p>
+          <div class="chart">
+            <div class="chart-data">
+              <canvas id="myChart"></canvas>
+            </div>
+            <hr />
+            <div class="info">
+              <div class="total-main">
+                <p class="total-text">Total this month</p>
+                <p class="total">$478.33</p>
+              </div>
+              <div class="percent-main">
+                <p class="percent">+2.4%</p>
+                <p class="percent-text">from last month</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
