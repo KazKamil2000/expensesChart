@@ -23,7 +23,7 @@ hr {
 .top-container {
     background-color: red;
     border-radius: 20px;
-    width: 320px;
+    width: 400px;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -35,7 +35,7 @@ hr {
 }
 
 .info {
-    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: space-between;
 }
