@@ -13,9 +13,9 @@ fetch("./data.json")
         datasets: [
           {
             data: values,
-            backgroundColor: ["red"],
+            backgroundColor: ["rgb(236, 117, 93)"],
             borderRadius: 3,
-            hoverBackgroundColor: "blue",
+            hoverBackgroundColor: "rgb(118, 181, 188)",
           },
         ],
       },
@@ -28,11 +28,32 @@ fetch("./data.json")
           tooltip: {
             yAlign: "bottom",
             displayColors: false,
+            title: false,
           },
         },
         scales: {
           y: {
+            display: false,
+
             beginAtZero: true,
+            grid: {
+              drawOnChartArea: false,
+              drawTicks: false,
+              drawBorder: false,
+            },
+            border: {
+              display: false,
+            },
+          },
+          x: {
+            grid: {
+              drawOnChartArea: false,
+              drawTicks: false,
+              drawBorder: false,
+            },
+            border: {
+              display: false,
+            },
           },
         },
       },
