@@ -1,4 +1,4 @@
-# Frontend Mentor - Expenses chart component
+# Frontend Mentor - Expenses chart component // STILL IN THE MAKING
 
 ![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
 
